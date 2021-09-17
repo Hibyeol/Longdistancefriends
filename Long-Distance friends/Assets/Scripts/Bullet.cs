@@ -13,7 +13,7 @@ public class Bullet : MonoBehaviour
         bulletRigidbody = GetComponent<Rigidbody>();
         bulletRigidbody.velocity = transform.forward * speed;
 
-        Destroy(gameObject, 3f); // 3ÃÊµÚ ÆÄ±«
+        Destroy(gameObject, 10f); // 3ÃÊµÚ ÆÄ±«
     }
 
     // Update is called once per frame

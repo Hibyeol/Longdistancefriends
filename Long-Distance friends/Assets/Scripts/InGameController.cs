@@ -18,6 +18,7 @@ public class InGameController : MonoBehaviour
     {
         Menu = GameObject.FindWithTag("Menu");
     }
+
     void Start()
     {
         Menu.SetActive(false);
